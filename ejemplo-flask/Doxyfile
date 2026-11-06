@@ -1,0 +1,7 @@
+# Doxyfile configuration for Doxygen
+PROJECT_NAME           = "Ejemplo Python Flask"
+OUTPUT_DIRECTORY       = "docs"
+RECURSIVE              = YES
+GENERATE_LATEX         = NO
+EXCLUDE                = venv docs
+OUTPUT_LANGUAGE        = Spanish
