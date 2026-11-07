@@ -31,10 +31,11 @@ pipeline {
                 sh 'doxygen Doxyfile'
                 archiveArtifacts artifacts: 'docs/html/**', fingerprint: true
                 publishHTML(target: [
-                    reportName : 'Documentacion Doxygen',
-                    reportDir  : 'docs/html',
-                    reportFiles: 'index.html',
-                    keepAll    : true,
+                    reportName  : 'Documentacion Doxygen',
+                    reportDir   : 'docs/html',
+                    reportFiles : 'index.html, files.html, app_8py.html',
+                    reportTitles: 'Inicio, Archivos, app.py',
+                    keepAll     : true,
                     alwaysLinkToLastBuild: true
                 ])
             }
