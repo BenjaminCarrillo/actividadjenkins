@@ -1,0 +1,13 @@
+REPORTE DE DOCUMENTACION
+========================
+Build:   #8
+Fecha:   2026-11-07 00:58:12
+Commit:  968ed34
+Autor:   BenjaminCarrillo <ben.carrillo@duocuc.cl>
+Mensaje: arreglo
+
+Archivos documentados:
+  - app.py
+  - test_app.py
+
+Avisos de Doxygen: 0
