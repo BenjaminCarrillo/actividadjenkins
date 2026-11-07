@@ -5,7 +5,7 @@ def test_hello_con_nombre():
     cliente = app.test_client()
     respuesta = cliente.get('/hello?name=Ben')
     assert respuesta.status_code == 200
-    assert respuesta.get_data(as_text=True) == "Hola, Ben!"
+    assert respuesta.get_data(as_text=True) == "Hello, Ben!"
 
 
 def test_hello_responde_200():
