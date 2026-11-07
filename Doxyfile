@@ -5,3 +5,5 @@ RECURSIVE              = YES
 GENERATE_LATEX         = NO
 EXCLUDE                = venv docs
 OUTPUT_LANGUAGE        = Spanish
+EXTRACT_ALL            = YES
+QUIET                  = YES
